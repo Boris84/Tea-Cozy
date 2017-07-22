@@ -31,23 +31,30 @@ flex-grow: 1;
 text-align: right;
 flex-grow: 1;
 }
-.content
 
+.content {
+padding-top: 69px;	
+opacity: 0.9;
+width: 1200px;
+margin: auto;
+}
 
-
-
-
+.Missiontext {
+width: 100%;
+margin: auto;
+background-color: black;	
+}
 #Mission {
+align-items: center;
+display: flex;
+flex-wrap: wrap;
 background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 margin: 0 40px 100px 40px;
 height:700px;
-
 }
-
 #Mission h2, h4 {
 font-weight: bold;
 font-family: Helvetica;
-text-align: bottom;
 }
 
 h2, h3, h4 {
@@ -55,22 +62,37 @@ margin: 0;
 padding: 10px;
 }
 
+#Featured-Tea {
+display: flex;
+height: 200px;
+width: 300px;
+}
 
-
-
-#Locations {
-background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
-height: 500px;
-width: 1200px;
-
+.images img {
+display: inline-flex;
+height: 200px;
+width: 300px;
 }
 
 
 
 
 
+
+#Locations {
+
+height: 500px;
+width: 1200px;
+
+}
+
 body {
-background-color: black
+background-color: black;
+font-family: Helvetica, sans-serif;
+color: seashell;
+font-size: 22px;
+margin: 0;
+text-align: center;
 }
 
 h2, h4 {
