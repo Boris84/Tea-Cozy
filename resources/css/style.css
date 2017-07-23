@@ -85,18 +85,19 @@ margin: 10px;
 padding: 10px;
 height: 200px;
 width: 300px;
+margin-bottom: 10px;
 }
 .images {
 display:flex;
-justify-content: space-around;
+justify-content: center;
 flex-wrap: wrap;
 padding: 2px;
+
 }
 .flex-item {
 display: flex;
 flex-direction: column;
 align-items: center;
-margin-bottom: 10px;
 }
 .Mybed {
 display: flex;
@@ -104,12 +105,19 @@ justify-content: space-around;
 }
 
 #Locations {
-height: 500px;
-width: 1200px;
+display: flex;
+display: inline-block;
 }
+
+}
+.places{
+ display: flex;
+ display: inline;
+
+}
+
 
 .Footer .Copyright{
 display: inline-block;
 text-align: left;
-
 }
