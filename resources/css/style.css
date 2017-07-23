@@ -34,6 +34,21 @@ text-align: right;
 flex-grow: 1;
 }
 
+body {
+background-color: black;
+font-family: Helvetica, sans-serif;
+color: seashell;
+font-size: 22px;
+margin: 0;
+text-align: center;
+}
+
+h2, h3, h4 {
+margin: 0;	
+padding: 10px;
+color: seashell;
+}
+
 .content {
 padding-top: 69px;	
 opacity: 0.9;
@@ -61,39 +76,36 @@ font-family: Helvetica;
 
 #Featured-Tea {
 display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 10px;
+}
+
+.images img {
+padding: 10px;
 height: 200px;
 width: 300px;
+}
+.images {
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+padding: 2px;
+}
+.flex-item {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-bottom: 10px;
+}
+.Mybed {
+display: flex;
+justify-content: space-around;
 }
 
 #Locations {
 height: 500px;
 width: 1200px;
-}
-
-.images {
-display:flex;
-justify-content: space-around;
-
-}
-.images img {
-padding: 20px;
-height: 200px;
-width: 300px;
-}
-
-body {
-background-color: black;
-font-family: Helvetica, sans-serif;
-color: seashell;
-font-size: 22px;
-margin: 0;
-text-align: center;
-}
-
-h2, h3, h4 {
-margin: 0;	
-padding: 10px;
-color: seashell;
 }
 
 .Footer .Copyright{
