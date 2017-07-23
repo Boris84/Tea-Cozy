@@ -2,6 +2,8 @@ header {
 display: flex;
 top: 0;
 width: 100%;
+opacity:1.0; 
+z-index:1;
 height: 69px;
 position: fixed;
 align-items: center;
@@ -68,8 +70,13 @@ height: 500px;
 width: 1200px;
 }
 
+.images {
+display:flex;
+justify-content: space-around;
+
+}
 .images img {
-display: inline-flex;
+padding: 20px;
 height: 200px;
 width: 300px;
 }
