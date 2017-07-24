@@ -50,7 +50,8 @@ color: seashell;
 }
 
 .content {
-padding-top: 69px;	
+padding-top: 69px;
+font-weight: bold;	
 opacity: 0.9;
 width: 1200px;
 margin: auto;
@@ -62,15 +63,14 @@ margin: auto;
 background-color: black;	
 }
 #Mission {
+background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
 align-items: center;
 display: flex;
 flex-wrap: wrap;
-background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-margin: 0 40px 100px 40px;
+margin: 0 40px 70px 40px;
 height:700px;
 }
 #Mission h2, h4 {
-font-weight: bold;
 font-family: Helvetica;
 }
 
@@ -105,19 +105,36 @@ justify-content: space-around;
 }
 
 #Locations {
-display: flex;
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+text-align: center;
+padding-top: 70px;
+margin-top: 70px;
+height: 500px;
+}
+
+.Places {
+ display: block;
+ justify-content: center;
+ padding-top: 15px;
+}
+
+.place {
 display: inline-block;
+background-color: black;
+justify-content: center;
+opacity: 1;
+margin: 20px;	
+height: 210px;
+width: 300px;
 }
 
-}
-.places{
- display: flex;
- display: inline;
-
+.Footer {
+display: block;
+height: 200px;
 }
 
-
-.Footer .Copyright{
-display: inline-block;
+.Copyright p {
 text-align: left;
+padding-left: 20px;
+font-weight: bold;
 }
