@@ -79,6 +79,7 @@ display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 margin: 10px;
+padding-top: 69px;
 }
 
 .images img {
